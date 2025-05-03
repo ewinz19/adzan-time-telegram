@@ -12,7 +12,7 @@ import os
 # Coba baca dari file, jika tidak ada gunakan default
 try:
     with open(os.path.expanduser("/root/sholat/ID_KOTA.txt"), 'r') as f:
-        ID_KOTA = int(f.read().strip())
+        ID_KOTA = f.read().strip()
 except (FileNotFoundError, ValueError):
     ID_KOTA = 2104  # Nilai default
 
