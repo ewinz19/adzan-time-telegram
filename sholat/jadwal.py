@@ -8,9 +8,9 @@ from datetime import datetime
 
 try:
     with open(os.path.expanduser("~/ID_KOTA.txt"), 'r') as f:
-        ID_KOTA = int(f.read().strip())
+        ID_KOTA = f.read().strip()
 except (FileNotFoundError, ValueError):
-    ID_KOTA = 2113  # Nilai defa
+    ID_KOTA = 2113  # Nilai 
 # ==============================
 # 2. FUNGSI UTAMA
 # ==============================
