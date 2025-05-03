@@ -1,0 +1,29 @@
+touch /etc/systemd/system/sholat-bot.service
+touch /etc/systemd/system/sholat-tiba.service
+touch /etc/systemd/system/sholat-sebelum.service
+
+
+
+cat ~/sholat/INSTALL/sebelum > /etc/systemd/system/sholat-sebelum.service
+cat ~/sholat/INSTALL/tiba > /etc/systemd/system/sholat-tiba.service
+cat ~/sholat/INSTALL/bot > /etc/systemd/system/sholat-bot.service
+
+
+chmod +x /etc/systemd/system/sholat-bot.service
+chmod +x /etc/systemd/system/sholat-tiba.service
+chmod +x /etc/systemd/system/sholat-sebelum.service
+
+systemctl daemon-reload
+systemctl enable sholat-sebelum 
+systemctl enable sholat-bot 
+systemctl enable sholat-tiba
+
+systemctl start sholat-sebelum
+systemctl start sholat-bot
+systemctl start sholat-tiba
+systemctl status sholat-bot sholat-sebelum sholat-tiba
+
+echo sukses build clasik semoga bermanfaat
+echo silahkan cek boot anda
+echo temukan angka kode kota anda
+echo sesuaikan kode daerah anda masukan difile /sholat/ID_KOTA.txt

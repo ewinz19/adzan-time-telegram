@@ -1,0 +1,12 @@
+[Unit]
+Description=Sholat Sebelum Service
+After=network.target
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/sholat/
+ExecStart=/usr/bin/python3 /root/sholat/sebelumtiba.py
+Restart=always
+RestartSec=5s
+[Install]
+WantedBy=multi-user.target
