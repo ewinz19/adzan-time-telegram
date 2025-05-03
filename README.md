@@ -23,3 +23,10 @@ systemctl start sholat-sebelum
 systemctl start sholat-tiba
 
 systemctl status sholat-bot sholat-sebelum sholat-tiba
+
+
+
+
+
+
+![Screenshot](images/screenshot.png)
