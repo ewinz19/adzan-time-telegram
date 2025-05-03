@@ -7,14 +7,14 @@ import os
 # ==============================
 # 1. SETTINGS -
 # ==============================
-#ID_KOTA = 2104  # Ganti dengan ID kota Anda
+
 
 # Coba baca dari file, jika tidak ada gunakan default
 try:
     with open(os.path.expanduser("/root/sholat/ID_KOTA.txt"), 'r') as f:
         ID_KOTA = f.read().strip()
 except (FileNotFoundError, ValueError):
-    ID_KOTA = 2104  # Nilai default
+    ID_KOTA = 2113 # Nilai default
 
 
 BASH_SCRIPT = "/root/sholat/jadwal.sh"  # Path ke script bash Anda
