@@ -2,10 +2,11 @@
 
 #############source https://api.myquran.com #######
 
-<p float="left">
-  <img src="images/Screenshot.jpg" width="400" />
-  <img src="images/Screenshot2.jpg" width="400" />
-</p>
+<h2>Screenshot</h2>
+
+<h3>Tampilan</h3>
+<img src="images/Screenshot.jpg" alt="Tampilan Utama" width="400"/>
+
 
 ##Cara INSTALL
 #install server pengingat waktu telegram INDONESIA 
@@ -28,8 +29,8 @@ systemctl start sholat-sebelum
 systemctl start sholat-tiba
 systemctl status sholat-bot sholat-sebelum sholat-tiba
 
-
-
+<h3>Tampilan Kedua</h3>
+<img src="images/Screenshot2.jpg" alt="Tampilan Kedua" width="400"/>
 
 #saran untuk pengingat waktu kita bisa mengatur nada dering grup
 sesuai keinginan kita dan ment aktip kan mode pop up
