@@ -1,6 +1,6 @@
------BOT TELEGRAM WAKTU SHOLAT INDONESIA-------
+ -----BOT TELEGRAM WAKTU SHOLAT INDONESIA-------
 
-#############source https://api.myquran.com #######
+ #############source https://api.myquran.com #######
 
 <h2>Screenshot</h2>
 
@@ -8,7 +8,8 @@
 <img src="images/Screenshot.jpg" alt="Tampilan Utama" width="400"/>
 
 
-##Cara INSTALL
+##Cara INSTALL##
+
 #install server pengingat waktu telegram INDONESIA 
 #silakan copas
 
@@ -40,4 +41,4 @@ systemctl status sholat-bot sholat-sebelum sholat-tiba
 <img src="images/Screenshot2.jpg" alt="Tampilan Kedua" width="400"/>
 
 #saran untuk pengingat waktu kita bisa mengatur nada dering grup
-sesuai keinginan kita dan ment aktip kan mode pop up
+sesuai keinginan kita dan mengaktifkan mode pop up notification.
