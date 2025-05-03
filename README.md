@@ -1,4 +1,8 @@
 
+![Screenshot](images/screenshot2.jpg)
+
+
+
 ####  ####  ####
 #install server pengingat waktu telegram INDONESIA 
 #
@@ -29,4 +33,4 @@ systemctl status sholat-bot sholat-sebelum sholat-tiba
 
 
 
-![Screenshot](images/screenshot.png)
+![Screenshot](images/screenshot.jpg)
