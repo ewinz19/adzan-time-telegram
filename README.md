@@ -1,8 +1,8 @@
 
 
 <p float="left">
-  <img src="images/screenshot.jpg" width="400" />
-  <img src="images/screenshot2.jpg" width="400" />
+  <img src="images/Screenshot.jpg" width="400" />
+  <img src="images/Screenshot2.jpg" width="400" />
 </p>
 
 ####  ####  ####
