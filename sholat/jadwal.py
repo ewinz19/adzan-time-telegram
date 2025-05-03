@@ -1,11 +1,16 @@
+import os
 import requests
 from datetime import datetime
 
 # ==============================
 # 1. SETTINGS - SESUAIKAN INI!
 # ==============================
-ID_KOTA = 2104  # Ganti dengan ID kota Anda (2104 = contoh)
 
+try:
+    with open(os.path.expanduser("~/ID_KOTA.txt"), 'r') as f:
+        ID_KOTA = int(f.read().strip())
+except (FileNotFoundError, ValueError):
+    ID_KOTA = 2113  # Nilai defa
 # ==============================
 # 2. FUNGSI UTAMA
 # ==============================
