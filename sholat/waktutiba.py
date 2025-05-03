@@ -9,12 +9,12 @@ from datetime import datetime
 # ==============================
 # 1. PENGATURAN (CUSTOMIZE)
 # ==============================
-#ID_KOTA          = 2104  # ganti ID kota Anda
+
 try:
     with open(os.path.expanduser("/root/sholat/ID_KOTA.txt"), 'r') as f:
-        ID_KOTA = int(f.read().strip())
+        ID_KOTA = f.read().strip()
 except (FileNotFoundError, ValueError):
-    ID_KOTA = 2104  # Nilai default
+    ID_KOTA = 2113 # Nilai default
 
 BASH_SCRIPT      = "/root/sholat/tiba.sh"
 CHECK_INTERVAL   = 30    # detik
