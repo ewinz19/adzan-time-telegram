@@ -1,3 +1,4 @@
+#!/system/bin/bash
 touch /etc/systemd/system/sholat-bot.service
 touch /etc/systemd/system/sholat-tiba.service
 touch /etc/systemd/system/sholat-sebelum.service
