@@ -40,5 +40,4 @@ systemctl status sholat-bot sholat-sebelum sholat-tiba
 <h3>Tampilan Kedua</h3>
 <img src="images/Screenshot2.jpg" alt="Tampilan Kedua" width="400"/>
 
-#saran untuk pengingat waktu kita bisa mengatur nada dering grup
-sesuai keinginan kita dan mengaktifkan mode pop up notification.
+##saran kalau untuk kirim ke whatsapp grup bisa gunakan Green-api
